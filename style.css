@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    height: 100%;
+    background: linear-gradient(to top right, rgb(255, 101, 127), rgb(196, 87, 255), rgb(65, 65, 255));
+}
+
+nav{
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+nav img{
+    padding-right: 2rem
+}
+
+nav:hover{
+    width: 13rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: black;
+}
+
+nav ul{
+    padding: 1rem;
+}
